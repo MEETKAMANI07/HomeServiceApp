@@ -44,6 +44,13 @@ public class DashBoard extends AppCompatActivity {
             }
         });
 
+        imgviewCleaning.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent c = new Intent(DashBoard.this,Cleaning.class);
+                startActivity(c);
+            }
+        });
 
 
     }
